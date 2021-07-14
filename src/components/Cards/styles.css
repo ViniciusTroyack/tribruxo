@@ -1,0 +1,25 @@
+.wizardCard{
+    margin: 18px;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center ;
+    border: 2px solid white;
+    background-size: cover;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-weight: bold;
+    font-size: 30px; 
+    color: white;
+}
+
+.showWizards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
